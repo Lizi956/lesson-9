@@ -1,0 +1,137 @@
+.header-container {
+  width: 1440px;
+  height: 96px;
+  display: flex;
+}
+.logo {
+  padding-left: 50px;
+  margin-top: 50px;
+}
+.ul-list {
+  display: flex;
+  padding-left: 300px;
+  margin-top: 70px;
+
+  height: 20px;
+  gap: 24px;
+  color: rgba(0, 0, 0, 1);
+}
+.logo-2 {
+  height: 48px;
+
+  padding-left: 500px;
+  margin-top: 50px;
+}
+.photo {
+  width: 100%;
+  margin-top: 20px;
+  position: relative;
+  display: flex;
+}
+.text {
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+}
+.new-box {
+  position: absolute;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  line-height: 50px;
+}
+.text2 {
+  font-size: 40px;
+  color: rgba(255, 255, 255, 1);
+  line-height: 48px;
+  width: 540px;
+}
+.logo3 {
+  margin-top: 20px;
+}
+.footer-container {
+  width: 1440px;
+  height: 336px;
+  width: 100%;
+  gap: 10px;
+  background-color: rgba(0, 0, 0, 1);
+}
+.small-box {
+  width: 1140px;
+  display: flex;
+  padding-left: 200px;
+  width: 90%;
+}
+.flex-bottom {
+  display: flex;
+}
+.h2-class {
+  font-size: 24.65px;
+  color: rgba(255, 255, 255, 1);
+  padding-left: 70px;
+  margin-top: 15px;
+}
+.div-box {
+  max-width: 210px;
+  margin: 0 auto;
+  width: 100%;
+}
+.font-size {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 1);
+  padding-left: 70px;
+  margin-top: 15px;
+}
+.color {
+  color: rgba(255, 255, 255, 1);
+  margin-top: 15px;
+  padding-left: 70px;
+}
+.font-size2 {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 1);
+  padding-left: 70px;
+  margin-top: 25px;
+}
+.color4 {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+  padding-left: 70px;
+  margin-top: 25px;
+  line-height: 20px;
+}
+@media (max-width: 1024px) {
+  .small-box {
+    flex-direction: column;
+  }
+  .active {
+    display: none;
+  }
+}
+@media (max-width: 744px) {
+  .small-box {
+    margin-right: 55px;
+  }
+}
+@media (max-width: 1024px) {
+  .new-box {
+    flex-direction: column;
+  }
+}
+@media (max-width: 744px) {
+  .new-box {
+    margin-right: 55px;
+  }
+}
+@media (max-width: 1024px) {
+  .header-container {
+    flex-direction: column;
+    white-space: nowrap;
+  }
+}
+@media (max-width: 744px) {
+  .header-container {
+    margin-right: 55px;
+  }
+}
